@@ -11,9 +11,18 @@ public class Solution {
         ListNode cur = dummy;
         int carry = 0;
         while (l1 != null || l2 != null) {
-            int d1 = l1 == null ? 0 : l1.val;
+            int n1 = l1 == null ? 0 : l1.val;
+            int n2 = l2 == null ? 0 : l2.val;
+            int sum = n1 + n2 + carry;
+            carry = sum / 10;
+            sum %= 10;
+
+            cur.next = new ListNode(sum);
+            cur = cur.next;
+            if (l1 != null) l1 = l1.next;
+            if (l2 != null) l2 = l2.next;
         }
-        if (carry == 1) cur.next = new ListNode(1);
+        if (carry != 0) cur.next = new ListNode(1);
         return dummy.next;
     }
 }
