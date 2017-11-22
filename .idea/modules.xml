@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/1 Two Sum/1 Two Sum.iml" filepath="$PROJECT_DIR$/1 Two Sum/1 Two Sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/2 Add Two Numbers/2 Add Two Numbers.iml" filepath="$PROJECT_DIR$/2 Add Two Numbers/2 Add Two Numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/3 Longest Substring Without Repeating Characters/3 Longest Substring Without Repeating Characters.iml" filepath="$PROJECT_DIR$/3 Longest Substring Without Repeating Characters/3 Longest Substring Without Repeating Characters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4 Median of Two Sorted Arrays/4 Median of Two Sorted Arrays.iml" filepath="$PROJECT_DIR$/4 Median of Two Sorted Arrays/4 Median of Two Sorted Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5 Longest Palindromic Substring/5 Longest Palindromic Substring.iml" filepath="$PROJECT_DIR$/5 Longest Palindromic Substring/5 Longest Palindromic Substring.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode-JavaSolution.iml" filepath="$PROJECT_DIR$/LeetCode-JavaSolution.iml" />
     </modules>
   </component>
